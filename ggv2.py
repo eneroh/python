@@ -24,3 +24,5 @@ while win == False:
 		else:
 			print(guess)
 			print("Your guess " + str(guess) + " was too high, aim lower!")
+
+based on: https://www.codespeedy.com/number-guessing-game-in-python/
