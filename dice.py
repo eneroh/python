@@ -4,7 +4,7 @@ Dice python program. Choice between 1 die vs 2 dice. STARTING OFF WITH PERSONAL 
 
 import random
 
-choice = input("How many die?(1, 2): ")
+choice = int(input("How many die?(1, 2): "))
 
 d1 = random.randint(0,6)
 d2 = random.randint(0,12)
