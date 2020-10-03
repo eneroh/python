@@ -1,7 +1,7 @@
 while True:
-	x = float(input("first number: "))
+	x = int(input("first number: "))
 	op = input("Operation(+,-,*,/): ")
-	y = float(input("second number: "))
+	y = int(input("second number: "))
 
 	if op == "+":
 		print(x + y)
