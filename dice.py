@@ -6,8 +6,8 @@ import random
 
 choice = input("How many die?(1, 2): ")
 
-d1 = random.randint(0,6)
-d2 = random.randint(0,12)
+d1 = random.randint(1,6)
+d2 = random.randint(1,12)
 
 if choice == "1":
 	print("You rolled " + str(d1))
