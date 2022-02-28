@@ -3,8 +3,11 @@ import random
 i=0
 again="y"
 
+
+print("Rock, Paper, Scissors!")
+
 while(i<3 and again == "y"):
-	player = input("Enter your choice! R = Rock, S = Scissors, P = Paper: ")
+	player = input("Enter your choice! (r)ock, (p)aper, (s)cissors: ")
 	action = ("r","p","s")
 	computer = random.choice(action)
 
