@@ -1,33 +1,34 @@
 import random
 
+i=0
 again="y"
 
-while again == "y" or again == "Y":
+while(i<3 and again == "y"):
 	player = input("Enter your choice! R = Rock, S = Scissors, P = Paper: ")
 	action = ("r","p","s")
 	computer = random.choice(action)
 
 	if player == computer:
 		print("Tie")
-		again= input("Go again?(y/n)")
+		i=i
 	elif player == "r" and computer == "s":
 		print("You win!")
-		again= input("Go again?(y/n)")
+		i=i+1
 	elif player == "s" and computer == "p": 
 		print("You win!")
-		again= input("Go again?(y/n)")
+		i=i+1
 	elif player == "p" and computer == "r":
 		print("You win!")
-		again= input("Go again?(y/n)")
+		i=i+1
 	elif computer == "r" and player == "s": 
 		print("You lose ):")
-		again= input("Go again?(y/n)")
+		i=i+1
 	elif computer == "s" and player == "p":
 		print("You lose ):")
-		again= input("Go again?(y/n)")
+		i=i+1
 	elif computer == "p" and player == "r":
 		print("You lose ):")
-		again= input("Go again?(y/n)")
+		i=i+1
 	else:
 		print("Invalid, please try again")	
-		again= input("Go again?(y/n)")
+		again= input("Go again?(y/n): ")
