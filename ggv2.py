@@ -25,4 +25,4 @@ while win == False:
 			print(guess)
 			print("Your guess " + str(guess) + " was too high, aim lower!")
 
-based on: https://www.codespeedy.com/number-guessing-game-in-python/
+"""https://www.codespeedy.com/number-guessing-game-in-python/"""
