@@ -1,3 +1,5 @@
+#!/bin/python
+
 while True:
 	x = float(input("first number: "))
 	op = input("Operation: ")
