@@ -1,3 +1,5 @@
+#!/bin/python
+
 fWord = input("Enter first word: ")
 sWord = input("Enter second word: ")
 choice = input("Select (c)oncat, (s)wap, (r)everse: ")
