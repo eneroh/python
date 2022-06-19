@@ -1,3 +1,5 @@
+#!/bin/python
+
 while True:
 	x = int(input("first number: "))
 	op = input("Operation(+,-,*,/): ")
