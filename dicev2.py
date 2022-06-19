@@ -1,3 +1,5 @@
+#!/bin/python
+
 """
 Dice python program. Choice between 1 die vs 2 dice. STARTING OFF WITH PERSONAL CODING KNOWLEDGE
 """
