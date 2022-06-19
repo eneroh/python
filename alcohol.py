@@ -3,7 +3,7 @@
 """
 alcohol.py
 
-Well, now I'm just doing a basic logical/conditional staement.
+Well, now I'm just doing a basic logical/conditional statement.
 
 Let's see how this plays out
 """
