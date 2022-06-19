@@ -1,3 +1,5 @@
+#!/bin/python
+
 #######################
 #Author: INFT1004
 #Date: 2019-2020
@@ -77,7 +79,3 @@ def checkBoolean():
       print("number1 is larger")
    if number1 <= number2:
        print("number2 is larger")
-	  
-	  
-    
-    
