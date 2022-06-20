@@ -29,7 +29,7 @@ string = input("Enter word you want to find: ")
 
 for line in fileOpen.splitlines():
     if string in line:
-        print(line.replace(string,colored(255, 0, 0,string)))
+        print(line.replace(string,colored(255, 0, 0,string))) # change with f string
 
 def findText(string):
     #print(string.count in fileOpen.read().lower())
@@ -43,10 +43,10 @@ else:
     findText(string)
 
 def result():
-    if(findText(string) == True):
+    if(findText(string)):
         print("Your word appears in the document!")
         stringCount = fileOpen.count(string)
-        print("Your word appears " + str(stringCount) + " times.")
+        print("Your word appears " + str(stringCount) + " times.") # change with f string
     else:
         print("Your word doesn't appear in the document! Try again?")
 
