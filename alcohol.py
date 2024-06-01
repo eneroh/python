@@ -12,7 +12,6 @@ age = input("Please input your age: ")
 money = input("Please input your money: ")
 
 def alcohol(age,money):
-
     if (age >= str(21)) and (money >= str(5)):
         return "Drink responsibly ;)"
     elif (age >= str(21)) and (money < str(5)):
