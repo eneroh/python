@@ -1,10 +1,10 @@
 #!/bin/python
 
-###
+"""
 mass_requests_to_scan_site.py
 
 based on video by engineer man: 
-###
+"""
 
 import requests
 import threading
@@ -12,7 +12,7 @@ import threading
 url = '<scam site>'
 
 data = {
-  REVIEW additional information via chrome console or similar when capturing request
+  '''REVIEW additional information via chrome console or similar when capturing request'''
   'cc_number': '4007000000027',
   'cc_expmonth': '08',
   'cc_expyear': '21',
