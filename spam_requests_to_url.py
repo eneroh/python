@@ -1,7 +1,7 @@
 #!/bin/python
 
 """
-mass_requests_to_scan_site.py
+mass_requests_to_scam_site.py
 
 based on video by engineer man: 
 """
