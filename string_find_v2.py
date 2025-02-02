@@ -1,13 +1,17 @@
 #!/bin/python
 
 """
-text_find.py
+string_find_v2.py
 
 File and Text Manipulation
 
 This script is to find text in a specific file. GUI involved. User input for word find function.
 
 The script has been completed in its entirety. The final .replace on line 32 was a suggestion from a distant friend.
+
+Suggestion from senior developers suggest using fstrins instead of normal strings
+
+Pending update
 """
 
 import tkinter as tk
