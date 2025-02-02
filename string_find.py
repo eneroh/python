@@ -1,7 +1,7 @@
 #!/bin/python
 
 """
-text_find.py
+string_find.py
 
 File and Text Manipulation
 
